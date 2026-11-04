@@ -1,0 +1,100 @@
+/* =========================================================================
+   Top Psychic Reviews — Design Tokens  ("Celestial Almanac")
+   Editorial review authority: midnight-indigo astral bands + warm editorial
+   paper, one disciplined premium accent (antique gold), monospace data readouts.
+   Defines BOTH variable systems (--c-* and --clr-*) so every template re-skins.
+   ========================================================================= */
+:root {
+    /* ---- Core palette (named) ---- */
+    --ink:        #16132E;   /* midnight indigo — primary text / dark surfaces */
+    --ink-2:      #221D45;
+    --night-1:    #1B1740;   /* hero gradient start */
+    --night-2:    #322A6B;   /* hero gradient end */
+    --iris:       #7A5CFF;   /* interactive violet */
+    --iris-ink:   #5B3FE0;   /* readable violet on light */
+    --iris-dark:  #4A32C0;
+    --iris-soft:  #A594FF;
+    --gold:       #C8A24A;   /* antique almanac gold — the one premium accent */
+    --gold-lt:    #E9CE86;
+    --gold-deep:  #A9863A;
+    --paper:      #FBF8F1;   /* warm editorial base */
+    --paper-alt:  #F2ECDD;   /* alt band */
+    --line:       #E5DECB;   /* warm hairline */
+    --line-2:     #D6CDB4;
+    --muted:      #6B6685;   /* muted indigo-gray */
+    --dim:        #9A94AE;
+    --good:       #3F9E6E;
+    --bad:        #C4574F;
+
+    /* ---- --c-* system (base, header, footer, front-page, components) ---- */
+    --c-primary:       var(--iris);
+    --c-primary-dark:  var(--iris-dark);
+    --c-primary-light: var(--iris-soft);
+    --c-primary-ink:   var(--iris-ink);
+    --c-accent:        var(--gold);
+    --c-accent-light:  var(--gold-lt);
+    --c-bg:            var(--paper);
+    --c-surface:       #FFFFFF;
+    --c-surface-alt:   var(--paper-alt);
+    --c-text:          var(--ink);
+    --c-text-light:    var(--muted);
+    --c-text-inv:      #FFFFFF;
+    --c-border:        var(--line);
+    --c-border-dark:   var(--line-2);
+    --c-star:          var(--gold);
+    --c-footer-bg:     var(--ink);
+    --c-footer-text:   #B4AED6;
+
+    /* ---- --clr-* system (catalog, review, taxonomy, archive templates) ---- */
+    --clr-primary:       var(--iris);
+    --clr-primary-ink:   var(--iris-ink);
+    --clr-primary-dark:  var(--iris-dark);
+    --clr-primary-soft:  var(--iris-soft);
+    --clr-primary-tint:  rgba(122, 92, 255, .09);
+    --clr-accent:        var(--iris-ink);
+    --clr-gold:          var(--gold);
+    --clr-bg:            var(--paper);
+    --clr-surface:       #FFFFFF;
+    --clr-surface-hover: #F6F1E6;
+    --clr-text:          var(--ink);
+    --clr-muted:         var(--muted);
+    --clr-dim:           var(--dim);
+    --clr-border:        var(--line);
+    --clr-green:         var(--good);
+    --clr-red:           var(--bad);
+
+    /* ---- Typography ---- */
+    --ff-heading: 'Fraunces', Georgia, 'Times New Roman', serif;
+    --ff-body:    'Instrument Sans', system-ui, -apple-system, sans-serif;
+    --ff-mono:    'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+
+    --fw-regular: 400; --fw-medium: 500; --fw-semi: 600; --fw-semibold: 600;
+    --fw-bold: 700; --fw-black: 900;
+
+    --fs-xs:.75rem; --fs-sm:.875rem; --fs-base:1rem; --fs-md:1.125rem;
+    --fs-lg:1.25rem; --fs-xl:1.5rem; --fs-2xl:1.875rem; --fs-3xl:2.25rem;
+    --fs-4xl:3rem; --fs-5xl:3.9rem;
+    --lh-tight:1.12; --lh-normal:1.6; --lh-relaxed:1.8;
+
+    /* ---- Spacing ---- */
+    --sp-1:4px; --sp-2:8px; --sp-3:12px; --sp-4:16px; --sp-5:20px; --sp-6:24px;
+    --sp-8:32px; --sp-10:40px; --sp-12:48px; --sp-16:64px; --sp-20:80px; --sp-24:104px;
+
+    /* ---- Layout ---- */
+    --max-w:1180px; --max-w-narrow:760px; --gutter:24px;
+
+    /* ---- Radius ---- */
+    --r-sm:4px; --r-md:8px; --r-lg:12px; --r-xl:16px; --r-2xl:22px; --r-full:9999px;
+
+    /* ---- Shadows (indigo-tinted) ---- */
+    --shadow-xs:0 1px 2px rgba(22,19,46,.06);
+    --shadow-sm:0 1px 3px rgba(22,19,46,.08),0 1px 2px rgba(22,19,46,.05);
+    --shadow-md:0 6px 16px rgba(22,19,46,.08),0 2px 6px rgba(22,19,46,.05);
+    --shadow-lg:0 16px 40px rgba(22,19,46,.12),0 4px 12px rgba(22,19,46,.06);
+    --shadow-xl:0 30px 60px rgba(22,19,46,.16),0 10px 20px rgba(22,19,46,.08);
+    --shadow-gold:0 8px 24px rgba(200,162,74,.30);
+
+    /* ---- Motion ---- */
+    --ease:cubic-bezier(.4,0,.2,1); --ease-out:cubic-bezier(.16,1,.3,1);
+    --dur:200ms; --dur-slow:380ms;
+}
