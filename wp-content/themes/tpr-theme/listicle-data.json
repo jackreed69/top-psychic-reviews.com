@@ -1,0 +1,41 @@
+{
+  "name": "top-psychic-reviewscom",
+  "theme": "tpr-theme",
+  "brand": "Top Psychic Reviews",
+  "domain": "top-psychic-reviews.com",
+  "palette": "sage",
+  "eyebrow": "THE READER SHORTLIST",
+  "title": "Find a reader who fits your question.",
+  "intro": "Thoughtful shortlists of psychic readers, with their specialties, reading styles and the questions to ask before you book.",
+  "section": "9 psychic readers worth comparing",
+  "standfirst": "A useful shortlist starts with fit. Explore different approaches to relationships, career questions and personal reflection, then check the reader’s current profile before deciding.",
+  "ids": [
+    2,
+    3,
+    6,
+    10,
+    12,
+    14,
+    17,
+    20,
+    24
+  ],
+  "topics": [
+    [
+      "love-reader-shortlist",
+      "6 readers for love & relationship questions",
+      "Love & relationships"
+    ],
+    [
+      "career-reader-shortlist",
+      "6 readers for career crossroads",
+      "Career & work"
+    ],
+    [
+      "reading-style-shortlist",
+      "6 different reading styles to explore",
+      "Destiny & life path"
+    ]
+  ],
+  "id": 47
+}
